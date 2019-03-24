@@ -17,3 +17,4 @@ Step 005 - Creating GraphQL User type, User resolver logic (including password e
 
 Step 006 - Added dynamic relations between Event and User allowing multi-level nested data queries.
 
+Step 007 - Code refactoring - extracted GraphQL schema and resolvers logic out of app.js file 
