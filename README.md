@@ -15,3 +15,5 @@ Step 004 - Adding Mongoose node package, Mongoose schema and model for Event, co
 
 Step 005 - Creating GraphQL User type, User resolver logic (including password encryption), Mongoose schema and model for User.
 
+Step 006 - Added dynamic relations between Event and User allowing multi-level nested data queries.
+
