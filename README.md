@@ -3,6 +3,7 @@ Steps to creating a full-fledged Web application with Node.js, React.js and Grap
 
 Based on Academind YouTube video series - December 2018 through February 2019
 https://www.youtube.com/watch?v=7giZGFDGnkc&feature=em-uploademail
+
 https://academind.com/learn/node-js/graphql-with-node-react-full-app/
 
 Step 001 - Creating a barebones Express application
@@ -18,3 +19,5 @@ Step 005 - Creating GraphQL User type, User resolver logic (including password e
 Step 006 - Added dynamic relations between Event and User allowing multi-level nested data queries.
 
 Step 007 - Code refactoring - extracted GraphQL schema and resolvers logic out of app.js file 
+
+Step 008 - Code refactoring - added async/await syntax to resolvers logic
