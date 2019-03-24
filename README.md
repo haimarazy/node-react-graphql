@@ -12,3 +12,6 @@ Step 002 - Creating barebones GraphQL schema and resolver stubs
 Step 003 - Creating GraphQL types for Event and EventInput
 
 Step 004 - Adding Mongoose node package, Mongoose schema and model for Event, connection to MongoDB, and MongoDB logic to GrapthQL resolver stubs. Passing Mongo connection params to app via Nodemon env.
+
+Step 005 - Creating GraphQL User type, User resolver logic (including password encryption), Mongoose schema and model for User.
+
