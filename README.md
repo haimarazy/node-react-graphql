@@ -9,3 +9,4 @@ Step 001 - Creating a barebones Express application
 
 Step 002 - Creating barebones GraphQL schema and resolver stubs
 
+Step 003 - Creating GraphQL types for Event and EventInput
