@@ -10,3 +10,5 @@ Step 001 - Creating a barebones Express application
 Step 002 - Creating barebones GraphQL schema and resolver stubs
 
 Step 003 - Creating GraphQL types for Event and EventInput
+
+Step 004 - Adding Mongoose node package, Mongoose schema and model for Event, connection to MongoDB, and MongoDB logic to GrapthQL resolver stubs. Passing Mongo connection params to app via Nodemon env.
