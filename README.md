@@ -21,3 +21,5 @@ Step 006 - Added dynamic relations between Event and User allowing multi-level n
 Step 007 - Code refactoring - extracted GraphQL schema and resolvers logic out of app.js file 
 
 Step 008 - Code refactoring - added async/await syntax to resolvers logic
+
+Step 009 - Added functionality for adding, deleting, and querying Bookings
