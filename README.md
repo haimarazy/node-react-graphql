@@ -23,3 +23,5 @@ Step 007 - Code refactoring - extracted GraphQL schema and resolvers logic out o
 Step 008 - Code refactoring - added async/await syntax to resolvers logic
 
 Step 009 - Added functionality for adding, deleting, and querying Bookings
+
+Step 010 - Code refactoring and clean-up
