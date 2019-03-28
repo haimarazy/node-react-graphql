@@ -1,6 +1,6 @@
 
 const Event = require('../../models/event');
-const { defaultUserId, transformEvent } = require ('./merge');
+const { transformEvent } = require ('./merge');
 const User = require('../../models/user');
 
 module.exports = {
@@ -21,14 +21,18 @@ module.exports = {
 
     },
 
-    createEvent: async args => {
+    createEvent: async (args, req) => {
+
+        if (!req.isAuth) {
+            throw new Error('Unauthenticated!');
+        }
 
         const event = new Event({
             title: args.eventInput.title,
             description: args.eventInput.description,
             price: +args.eventInput.price,
             date: new Date(args.eventInput.date),
-            creator: defaultUserId
+            creator: req.userId
         });
 
         let createdEvent;
@@ -39,7 +43,7 @@ module.exports = {
 
             createdEvent = transformEvent(result);
 
-            const creator = await User.findById(defaultUserId);
+            const creator = await User.findById(req.userId);
 
             if (!creator) {
                 throw new Error('User not found');

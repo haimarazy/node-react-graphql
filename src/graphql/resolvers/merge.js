@@ -63,6 +63,5 @@ const transformBooking = booking => {
 // exports.events = events;
 // exports.singleEvent = singleEvent;
 // exports.user = user;
-exports.defaultUserId = '5c9a7ab4ce4c69174ead3513';
 exports.transformBooking = transformBooking;
 exports.transformEvent = transformEvent;
